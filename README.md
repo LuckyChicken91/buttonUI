@@ -58,4 +58,27 @@ The full code is also findable in examples/
 
 # Documentation
 ```lua
-bui:
+bui:draw()
+--Draws the buttons
+
+bui:newButton(name, {text, textColor, textScale, textFont}, buttonX, buttonY, buttonW, buttonH, buttonRoundness, buttonColor, image, imageScale, imageColor)
+--Creates a new button
+
+bui:editButton(name, value, newValue)
+--Changes a value in a button
+
+bui:removeButton(name)
+--Removes a button
+
+bui:getValue(name, value)
+--Gets a value from a button
+
+bui:hovering()
+--Gets the hovered button
+
+bui:holding()
+--Gets the button holded
+
+bui:clicking()
+--Gets the clicked button
+```
