@@ -1,5 +1,5 @@
 -------------------------------------------------------------------
--- ButtonUI (bui) - A button UI library for the Löve Game Engine --
+-- ButtonUI (bui) - A button User Interface library for the Löve Game Engine --
 -------------------------------------------------------------------
 
 bui = {}
@@ -84,7 +84,7 @@ function bui:getValue(name, value)
   end
 end
 
-function bui:hovering(name)
+function bui:hovering()
   for i, v in ipairs(bui.buttons) do
     if hover(v) then
       return v.name
