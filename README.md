@@ -1,7 +1,8 @@
 # ButtonUI
 A button User Interface library for the [Löve Game Engine](https://love2d.org)
 
-# Getting started
+## Install
+## Getting started
 
 First of all we will need to require the ButtonUI library!
 ```lua
@@ -56,7 +57,9 @@ end
 
 The full code is also findable in examples/
 
-# Documentation
+## Documentation
+Functions:
+
 ```lua
 bui:draw()
 --Draws the buttons
